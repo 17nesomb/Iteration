@@ -26,6 +26,29 @@ namespace Iteration
 
 
             }
+            //repeats from 1 to 50
+            for (int i = 1; i <= 50; i++)
+            {
+                //says if a number is odd or even
+                string oddOrEven = "odd";
+                string multipleOfThree = "not a multiple of three";
+
+                if (i % 2 == 0)
+                {
+                    oddOrEven = "even";
+                }
+
+                if (i % 3 == 0)
+                {
+                    multipleOfThree = "a multiple of three";
+                }
+
+
+                Console.WriteLine($"{i} is {oddOrEven} and { multipleOfThree}");
+            }
+            
+            // say if a number is divisible by three
+           
         }
     }
 }
